@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --red: #d01c26;
+    --gray: #2e2e2e;
+}
+
+*{
+    margin: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 72px;
+    align-items: center;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+ }
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 24px;
+    align-items: center;
+}
+
+.logo,.button-container{
+    display: flex;
+    align-items: center;
+}
+
+.login-btn{
+    all: unset;
+    color: white;
+    font-weight: 500;
+    height: 31px;
+    width: 75px;
+    text-align: center;
+    background-color: var(--red);
+}
+
+li{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.hero{
+    display: flex;
+    max-width: 1125px;
+    margin: 0 auto;
+    align-items: center;
+    height: calc(100vh - 72px);
+}
+
+.hero h1{
+    font-size: 108px;
+    line-height: 102px;
+    font-weight: 800;
+}
+
+.hero p{
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--gray)
+}
+
+.hero-paragraph{
+    width: 404px;
+    height: 91px;
+}
+
+.hero-image{
+    display: flex;
+    justify-content: center;
+}
+.hero-image img{
+    width: 530px;
+}
+
+.hero-content{
+    display: grid;
+    gap: 36px;
+}
+
+.hero-btn{
+    display: flex;
+    gap: 40px;
+}
+
+.sec-btn{
+    background: transparent;
+    color: var(--gray);
+    border: 1px solid var(--gray);
+}
+
+button{
+    all: unset;
+    color: white;
+    font-weight: 500;
+    width: 150px;
+    height: 41px;
+    text-align: center;
+    background-color: var(--red);
+}
+
+.shopping{
+    display: grid;
+    gap: 16px;
+}
+.shopping p{
+    font-size: 16px;
+    color: var(--gray);
+    font-weight: 300;
+}
+
+.brand-icon{
+    display: flex;
+    gap: 16px;
+}
+
+.brand-icon img{
+    height: 32px;
+    width: 32px;
+}
