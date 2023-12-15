@@ -11,6 +11,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 }
 
 nav{
@@ -85,6 +86,11 @@ li{
     width: 530px;
 }
 
+.hero-text{
+    display: grid;
+    gap: 36px;
+}
+
 .hero-content{
     display: grid;
     gap: 36px;
@@ -130,3 +136,12 @@ button{
     height: 32px;
     width: 32px;
 }
+
+.hamMenu{
+    display: none;
+}
+
+.menu{
+    display: none;
+}
+

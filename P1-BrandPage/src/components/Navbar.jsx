@@ -1,12 +1,13 @@
+import { HamMenu } from "./Hamburger"
 export const Navbar = () => {
     return(
         <>
-        <nav className="container">
+        <nav className="nav container">
         <div className="logo">
             <img src="/images/brand_logo.png" alt="logo" />
         </div>
 
-        <ul>
+        <ul className="navList">
             <li href="#">Menu</li>
             <li href="#">Location</li>
             <li href="#">About</li>
@@ -16,6 +17,7 @@ export const Navbar = () => {
         <button className="login-btn">Login</button>
         </div>
         </nav>
+        <HamMenu/>
         </>
     )
 }

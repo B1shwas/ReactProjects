@@ -3,8 +3,10 @@ export const HeroSection = () => {
         <>
         <main className="hero container">
             <div className="hero-content">
+                <div className="hero-text">
                 <h1>YOUR FEET DESERVE THE BEST</h1>
                 <p className="hero-paragraph">YOUR FEET DESERVE THE BEST AND WE’RE HERE TO HELP YOU WITH OUR SHOES.YOUR FEET DESERVE THE BEST AND WE’RE HERE TO HELP YOU WITH OUR SHOES.</p>
+                </div>
                 <div className="hero-btn">
                     <button>Shop Now</button>
                     <button className="sec-btn">Category</button>

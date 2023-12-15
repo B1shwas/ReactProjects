@@ -1,0 +1,142 @@
+@media (max-width: 1330px){
+    .container{
+        max-width: 1100px;
+    }
+    .hero h1{
+        font-size: 98px;
+        line-height: 92px;
+        font-weight: 800;
+    }
+
+}
+
+@media (max-width: 1150px){
+    body{
+        background-color: white;
+    }
+    .container{
+        max-width: 950px;
+    }
+    .hero h1{
+        font-size: 88px;
+        line-height: 82px;
+        font-weight: 800;
+    }
+    
+    .hero p{
+        font-size: 14px;
+    }
+
+    .hero{
+        gap: 100px;
+    }
+
+}
+@media (max-width: 990px){
+    .container{
+        max-width: 830px;
+    }
+    .hero h1{
+        font-size: 88px;
+        line-height: 82px;
+        font-weight: 800;
+        max-width: 700px;
+    }
+    
+    .hero p{
+        font-size: 14px;
+    }
+
+    .hero{
+        gap: 100px;
+        flex-direction: column;
+        margin-top: 130px;
+    }
+    .hero-text{
+        display: grid;
+         gap: 40px;
+    }
+    .hero-image{
+        position: absolute;
+        top: 390px;
+        left: 450px;
+    }
+
+
+
+}
+@media (max-width: 889px){
+    .container{
+        max-width: 690px;
+    }
+    .hamMenu{
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        gap: 20px;
+        align-items: center;
+    }
+
+
+    .menu ul{
+        list-style: none;
+    }
+    .navList, .button-container{
+        display: none;
+    }
+        .hero h1{
+        font-size: 78px;
+        line-height: 65px;
+    }
+
+    .hero{
+        margin-top: 70px;
+    }
+    .hero-text{
+        display: grid;
+         gap: 40px;
+    }
+    .hero-image{
+        position: absolute;
+        top: 300px;
+        left: 45vw;
+        opacity: 55%;
+        width: 450px;
+    }
+
+    
+
+}
+
+@media (max-width: 700px){
+    .container{
+        max-width: 490px;
+    }
+        .hero h1{
+        font-size: 68px;
+        line-height: 55px;
+    }
+    .hero p{
+        font-size: 12px;
+    }
+
+    .hero-text{
+         gap: 430px;
+         margin-left: 10px;
+    }
+    .hero-image{
+        left: 15vw;
+        opacity: 75%;
+    }
+    .hero-btn,.shopping{
+        justify-content: center;
+    }
+
+}
+
