@@ -27,7 +27,6 @@ export default function App() {
               ...doc.data(),
             };
           });
-          console.log(contactLists);
           setContacts(contactLists);
           return contactLists;
         });
